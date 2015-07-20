@@ -1,0 +1,42 @@
+{
+  "name": "simplified-react-boilerplate",
+  "version": "1.0.0",
+  "description": "React,browserify,gulp,es6 boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhangCongjie/Simplified-react-boilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "browserify",
+    "gulp",
+    "es6",
+    "boilerplate"
+  ],
+  "author": "Zhangcongjie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZhangCongjie/Simplified-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ZhangCongjie/Simplified-react-boilerplate#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^8.0.1",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "vinyl-transform": "^1.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
